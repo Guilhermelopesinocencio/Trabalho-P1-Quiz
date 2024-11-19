@@ -94,6 +94,16 @@ public class Quiz {
                 "C"
         );
 
+        Questao q9 = new Questao(
+                "O que Harry Potter encontra no Triwizard Tournament (Torneio Tribruxo) em Harry Potter e o Cálice de Fogo ?",
+                "A) Uma taça de ouro",
+                "B) Uma pedra filosofal",
+                "C) Um feitiço de proteção",
+                "D) Uma varinha mágica",
+                "E) Uma chave dourada",
+                "A"
+        );
+
         // Criação da lista de questões
         List<Questao> questoes = new ArrayList<>();
         questoes.add(q1);
@@ -104,6 +114,7 @@ public class Quiz {
         questoes.add(q6);
         questoes.add(q7);
         questoes.add(q8);
+        questoes.add(q9);
 
 
         // Embaralhando as questões
