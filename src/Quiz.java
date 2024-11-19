@@ -104,6 +104,16 @@ public class Quiz {
                 "A"
         );
 
+        Questao q10 = new Questao(
+                "Em Harry Potter e a Ordem da Fênix, qual é o nome da sociedade secreta formada por Harry para lutar contra as forças das trevas?",
+                "A) A Ordem da Fênix",
+                "B) A Armada de Dumbledore",
+                "C) A Ordem dos Comensais da Morte",
+                "D) A Liga dos Magos",
+                "E) A Aliança de Hogwarts",
+                "B"
+        );
+
         // Criação da lista de questões
         List<Questao> questoes = new ArrayList<>();
         questoes.add(q1);
@@ -115,6 +125,8 @@ public class Quiz {
         questoes.add(q7);
         questoes.add(q8);
         questoes.add(q9);
+        questoes.add(q10);
+
 
 
         // Embaralhando as questões
