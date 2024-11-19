@@ -183,10 +183,6 @@ public class Quiz {
         questoes.add(q15);
 
 
-
-
-
-
         // Embaralhando as questões
         Collections.shuffle(questoes);
 
