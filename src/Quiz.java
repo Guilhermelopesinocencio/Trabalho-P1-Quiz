@@ -74,6 +74,26 @@ public class Quiz {
                 "A"
         );
 
+        Questao q7 = new Questao(
+                "Em Harry Potter e o Cálice de Fogo, qual escola de magia competiu contra Hogwarts no Torneio Tribruxo?",
+                "A) Beauxbatons",
+                "B) Durmstrang",
+                "C) Ilvermorny",
+                "D) Castelobruxo",
+                "E) Mahoutokoro",
+                "B"
+        );
+
+        Questao q8 = new Questao(
+                "Qual é o nome do animal de estimação de Hermione Granger?",
+                "A) Errol",
+                "B) Scabbers",
+                "C) Crookshanks",
+                "D) Hedwig",
+                "E) Fawkes",
+                "C"
+        );
+
         // Criação da lista de questões
         List<Questao> questoes = new ArrayList<>();
         questoes.add(q1);
@@ -82,7 +102,8 @@ public class Quiz {
         questoes.add(q4);
         questoes.add(q5);
         questoes.add(q6);
-
+        questoes.add(q7);
+        questoes.add(q8);
 
 
         // Embaralhando as questões
