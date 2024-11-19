@@ -134,6 +134,16 @@ public class Quiz {
                 "C"
         );
 
+        Questao q13 = new Questao(
+                "Em Harry Potter e as Relíquias da Morte, qual objeto é um dos três itens das Relíquias da Morte?",
+                "A) A pedra filosofal",
+                "B) A varinha das varinhas",
+                "C) O cálice de fogo",
+                "D) O anel de Slytherin",
+                "E) O elixir da vida",
+                "B"
+        );
+
         // Criação da lista de questões
         List<Questao> questoes = new ArrayList<>();
         questoes.add(q1);
@@ -148,6 +158,7 @@ public class Quiz {
         questoes.add(q10);
         questoes.add(q11);
         questoes.add(q12);
+        questoes.add(q13);
 
 
 
