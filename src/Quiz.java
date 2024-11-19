@@ -25,13 +25,13 @@ public class Quiz {
         );
 
         Questao q2 = new Questao(
-                "Qual foi a primeira vez que Harry Potter viu Sirius Black no terceiro filme?",
-                "A) 4",
-                "B) 7",
-                "C) 5",
-                "D) 9",
-                "E) 2",
-                "B"
+                "Em Harry Potter e as Relíquias da Morte – Parte 2, qual é o nome da personagem que se sacrifica para proteger Harry durante a batalha final?",
+                "A) Bellatrix Lestrange",
+                "B) Fred Weasley",
+                "C) Nymphadora Tonks",
+                "D) Severus Snape",
+                "E) Hermione Granger",
+                "D"
         );
 
         Questao q3 = new Questao(
@@ -144,6 +144,26 @@ public class Quiz {
                 "B"
         );
 
+        Questao q14 = new Questao(
+                "Em Harry Potter e a Pedra Filosofal, qual é o nome da criatura que protege a Pedra Filosofal no final do filme?",
+                "A) Fluffy",
+                "B) Aragog",
+                "C) Fawkes",
+                "D) Norberto",
+                "E) Bicuço",
+                "A"
+        );
+
+        Questao q15 = new Questao(
+                "Qual é o feitiço usado por Harry Potter para fazer a luz de sua varinha brilhar em \"Harry Potter e a Câmara Secreta\"?",
+                "A) Lumos",
+                "B) Nox",
+                "C) Wingardium Leviosa",
+                "D) Expelliarmus",
+                "E) Accio",
+                "A"
+        );
+
         // Criação da lista de questões
         List<Questao> questoes = new ArrayList<>();
         questoes.add(q1);
@@ -159,6 +179,9 @@ public class Quiz {
         questoes.add(q11);
         questoes.add(q12);
         questoes.add(q13);
+        questoes.add(q14);
+        questoes.add(q15);
+
 
 
 
