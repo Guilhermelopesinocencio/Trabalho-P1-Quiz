@@ -114,6 +114,16 @@ public class Quiz {
                 "B"
         );
 
+        Questao q11 = new Questao(
+                "Quem é o responsável por envenenar Harry com uma poção em Harry Potter e o Enigma do Príncipe?",
+                "A) A Ordem da Fênix",
+                "B) A Armada de Dumbledore",
+                "C) A Ordem dos Comensais da Morte",
+                "D) A Liga dos Magos",
+                "E) A Aliança de Hogwarts",
+                "B"
+        );
+
         // Criação da lista de questões
         List<Questao> questoes = new ArrayList<>();
         questoes.add(q1);
@@ -126,6 +136,8 @@ public class Quiz {
         questoes.add(q8);
         questoes.add(q9);
         questoes.add(q10);
+        questoes.add(q11);
+
 
 
 
