@@ -54,12 +54,34 @@ public class Quiz {
                 "C"
         );
 
+        Questao q5 = new Questao(
+                "Qual é o nome do elfo doméstico que servia a família Malfoy e mais tarde se junta a Harry Potter?",
+                "A) Dobby",
+                "B) Kreacher",
+                "C) Winky",
+                "D) Hokey",
+                "E) Hagrid",
+                "A"
+        );
+
+        Questao q6 = new Questao(
+                "Em Harry Potter e a Câmara Secreta, qual é o nome do monstro que habita a Câmara Secreta?",
+                "A) Basilisco",
+                "B) Dragão",
+                "C) Hidra",
+                "D) Acromântula",
+                "E) Thestral",
+                "A"
+        );
+
         // Criação da lista de questões
         List<Questao> questoes = new ArrayList<>();
         questoes.add(q1);
         questoes.add(q2);
         questoes.add(q3);
         questoes.add(q4);
+        questoes.add(q5);
+        questoes.add(q6);
 
 
 
