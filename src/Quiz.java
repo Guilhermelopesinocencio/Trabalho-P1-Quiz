@@ -34,10 +34,34 @@ public class Quiz {
                 "B"
         );
 
+        Questao q3 = new Questao(
+                "Qual é o nome completo do professor de Poções em Harry Potter e a Pedra Filosofal?",
+                "A) Horácio Slughorn",
+                "B) Severus Snape",
+                "C) Remo Lupin",
+                "D) Filius Flitwick",
+                "E) Gilderoy Lockhart",
+                "B"
+        );
+
+        Questao q4 = new Questao(
+                "Quem foi o responsável por salvar Harry de um ataque de dementadores em Harry Potter e o Prisioneiro de Azkaban?",
+                "A) Alvo Dumbledore",
+                "B) Sirius Black",
+                "C) Remo Lupin",
+                "D) Harry Potter",
+                "E) James Potter",
+                "C"
+        );
+
         // Criação da lista de questões
         List<Questao> questoes = new ArrayList<>();
         questoes.add(q1);
         questoes.add(q2);
+        questoes.add(q3);
+        questoes.add(q4);
+
+
 
         // Embaralhando as questões
         Collections.shuffle(questoes);
