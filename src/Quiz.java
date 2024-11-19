@@ -116,12 +116,22 @@ public class Quiz {
 
         Questao q11 = new Questao(
                 "Quem é o responsável por envenenar Harry com uma poção em Harry Potter e o Enigma do Príncipe?",
-                "A) A Ordem da Fênix",
-                "B) A Armada de Dumbledore",
-                "C) A Ordem dos Comensais da Morte",
-                "D) A Liga dos Magos",
-                "E) A Aliança de Hogwarts",
+                "A) Tom Riddle",
+                "B) Severus Snape",
+                "C) Bellatrix Lestrange",
+                "D) Fenrir Greyback",
+                "E) Draco Malfoy",
                 "B"
+        );
+
+        Questao q12 = new Questao(
+                "Qual é o nome da irmã de Ron Weasley?",
+                "A) Fleur Delacour",
+                "B) Luna Lovegood",
+                "C) Ginny Weasley",
+                "D) Hermione Granger",
+                "E) Molly Weasley",
+                "C"
         );
 
         // Criação da lista de questões
@@ -137,6 +147,8 @@ public class Quiz {
         questoes.add(q9);
         questoes.add(q10);
         questoes.add(q11);
+        questoes.add(q12);
+
 
 
 
